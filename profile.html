@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>Quiz</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1 class="profile__title">
+      Javscript White Badge
+      <button onclick="Logout()" class="logout">Logout</button>
+      <hr />
+    </h1>
+    <div class="card__profile">
+      <h4 class="profile__name">
+        Welcome,
+        <script>
+          let name = localStorage.getItem('userName');
+          document.write(name);
+        </script>
+      </h4>
+      <div class="underline-title"></div>
+      <div class="profile__score"></div>
+      <p class="profile__paragraph">Click continue to start the quiz</p>
+      <button
+        id="continue-profile"
+        class="continue"
+        type="button"
+        name="submit"
+        onclick="cnt()"
+      >
+        Continue
+      </button>
+    </div>
+  </body>
+  <script src="./js/profile.js"></script>
+  <script src="./js/questions.js"></script>
+</html>

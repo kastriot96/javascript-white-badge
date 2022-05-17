@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Quiz</title>
+  </head>
+  <body>
+    <div class="welcome__toquiz"><h1>Welcome to quiz</h1></div>
+    <div class="card">
+      <div class="card-content">
+        <div class="card-title">
+          <h2 class="login-part">Log in</h2>
+          <div class="underline-title"></div>
+        </div>
+
+        <form action="#" class="form hide">
+          <label>
+            &nbsp;Email
+      
+          <input placeholder="Enter your email"
+            id="user-email"
+            class="form-content"
+            type="email"
+            name="email"
+            autocomplete="on"
+          />
+        </label>
+          <div class="form-border"></div>
+          <label for="user-password" style="padding-top: 22px"
+            >&nbsp;Password
+          </label>
+          <input
+            placeholder="Enter your password"
+            id="user-password"
+            class="form-content"
+            type="password"
+            name="password"
+          />
+          <div class="form-border"></div>
+
+          <button
+            id="login-input"
+            class="submit-btn"
+            type="button"
+            name="submit"
+            onclick="logIn()"
+          >
+            LOGIN
+          </button>
+        </form>
+      </div>
+
+      <div class="card-content">
+        <div class="card-title">
+          <h2 class="signup">Sign up</h2>
+          <div class="underline-title"></div>
+        </div>
+
+        <form class="form-signup hide">
+          <label for="user-name" style="padding-top: 13px"> &nbsp;Name </label>
+          <input
+            placeholder="Enter your name"
+            id="user-name-signup"
+            class="form-content"
+            type="text"
+            name="name"
+            required
+          />
+          <div class="form-border"></div>
+          <label for="user-surname" style="padding-top: 22px"
+            >&nbsp;Surname
+          </label>
+          <input
+            placeholder="Enter your surname"
+            id="user-surname-signup"
+            class="form-content"
+            type="text"
+            name="surname"
+            required
+          />
+          <div class="form-border"></div>
+          <label for="user-email-signup" style="padding-top: 13px">
+            &nbsp;Email
+          </label>
+          <input
+            placeholder="Enter your email"
+            id="user-email-signup"
+            class="form-content"
+            type="email"
+            name="email"
+            autocomplete="on"
+            required
+          />
+          <div class="form-border"></div>
+          <label for="user-password-signup" style="padding-top: 22px"
+            >&nbsp;Password
+          </label>
+          <input
+          placeholder="Enter your password"
+            id="user-password-signup"
+            class="form-content"
+            type="password"
+            name="password"
+            required
+          />
+          <div class="form-border"></div>
+          <button
+            type="button"
+            id="save_btn"
+            class="submit-btn-signup"
+            onclick="saveData()"
+          >
+            Sign Up
+          </button>
+        </form>
+      </div>
+  </body>
+
+  <script src="./js/logIn.js"></script>
+  <script src="./js/signUp.js"></script>
+</html>

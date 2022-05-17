@@ -1,0 +1,135 @@
+[
+  {
+    "question": "Lexical scope in JavaScript means ",
+    "answers": [
+      { "text": "Inner level can access its outer levels", "correct": false },
+      { "text": "Deduced at compile-time", "correct": false },
+      {
+        "text": "Function scope accesses variables from the parent scope",
+        "correct": false
+      },
+      { "text": "All of the Above", "correct": true }
+    ]
+  },
+  {
+    "question": "How can lexical scope referred in other words",
+    "answers": [
+      { "text": "Dynamic Scope", "correct": false },
+      { "text": "Run time depended Scope", "correct": false },
+      { "text": "Static Scope", "correct": true },
+      { "text": "All of the Above", "correct": false }
+    ]
+  },
+  {
+    "question": "Hoisting is a default behavior of moving declarations to the bottom.",
+    "answers": [
+      { "text": "True", "correct": false },
+      { "text": "False", "correct": true }
+    ]
+  },
+  {
+    "question": "Variables defined with let and const are hoisted to the top of the block, but not initialized.",
+    "answers": [
+      { "text": "True", "correct": true },
+      { "text": "False", "correct": false }
+    ]
+  },
+  {
+    "question": "How do you do Javascript Debugging in the browser.",
+    "answers": [
+      { "text": "In Mozilla i use ⌥-⌘-I", "correct": false },
+      { "text": "In Chrome i use ⌥-⌘-J", "correct": false },
+      { "text": "In Safari i use ⌥-⌘-C ", "correct": false },
+      {
+        "text": "Yes, all above but those are Mac commands 😎",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What is DOM in JS?",
+    "answers": [
+      { "text": "It is a framework", "correct": false },
+      { "text": "It is API only for XML documents", "correct": false },
+      {
+        "text": "It is a programming interface for web documents",
+        "correct": true
+      },
+      {
+        "text": "It is an extension which can be installed in your IDE",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "DOM manipulation in JS",
+    "answers": [
+      {
+        "text": "To manipulate we have to access the document object first.",
+        "correct": true
+      },
+      { "text": "DOM can not be manipulated", "correct": false },
+      {
+        "text": "We can manipulate only using querySelector",
+        "correct": false
+      },
+      { "text": "DOM is not accessable", "correct": false }
+    ]
+  },
+  {
+    "question": "Events in JS",
+    "answers": [
+      { "text": "All below", "correct": true },
+      { "text": "Form events exist", "correct": false },
+      { "text": "There are 8 types of events", "correct": false },
+      {
+        "text": "Event model relies on listeners to listen for events and emitters to emit events periodically",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Function Callbacks",
+    "answers": [
+      {
+        "text": "Callbacks are passed into another function as argument",
+        "correct": false
+      },
+      {
+        "text": "Arguments passed inside the outer function are not invokable",
+        "correct": false
+      },
+      {
+        "text": "There are neither synchronous or async callbacks",
+        "correct": true
+      },
+      { "text": "Callbacks can not be executed immediately", "correct": false }
+    ]
+  },
+  {
+    "question": "Loop Syntax",
+    "answers": [
+      {
+        "text": "for loops through a block of code a number of times",
+        "correct": false
+      },
+      {
+        "text": "for/in loops through the properties of an object",
+        "correct": false
+      },
+      {
+        "text": "for/of loops through the values of an iterable object",
+        "correct": false
+      },
+      {
+        "text": "while loops a block of code while a specified condition is true",
+        "correct": false
+      },
+      {
+        "text": "do/while loops through a block code while a specified condition is true",
+        "correct": false
+      },
+      { "text": "All above", "correct": true }
+    ]
+  }
+]
