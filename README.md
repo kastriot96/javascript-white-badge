@@ -26,11 +26,15 @@ There is much to do , for example setting a time limitations, total score, best 
 
 - Log-in
 
+- Log-out
+
 - Validation
 
 - LocalStorage
 
 - Buttons with full functionality
+
+- Async await
 
 - Check if answer was true
 
